@@ -1,5 +1,5 @@
 const cleanText = (string) => {
-    if (string == ''){
+    if (string == '' || string == null){
         return ''
     }
     return string.trim()
